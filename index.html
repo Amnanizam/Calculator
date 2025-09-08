@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display">
+
+<div id="keys">
+    <button onclick="append('+')" class="change">+</button>
+    <button onclick="clearDis()">C</button>
+    <button onclick="del()" class="del">DEL</button>
+    <button id="powerButton" onclick="togglePower(this)" style="color:red; background-color:#ffd6d6;">OFF</button>
+    <button onclick="append('-')" class="change">-</button>
+    <button onclick="append('7')" class="big">7</button>
+    <button onclick="append('8')" class="big" >8</button>
+    <button onclick="append('9')" class="big">9</button>
+    <button onclick="append('*')" class="change">*</button>
+    <button onclick="append('4')" class="big">4</button>
+    <button onclick="append('5')" class="big">5</button>
+    <button onclick="append('6')" class="big">6</button>
+    <button onclick="append('/')" class="change">/</button>
+    <button onclick="append('1')" class="big">1</button>
+    <button onclick="append('2')" class="big">2</button>
+    <button onclick="append('3')"class="big">3</button>
+    <button onclick="percentDis()" class="change">%</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="append('0')" class="big">0</button>
+    
+    
+    <button onclick="append('.')">.</button>
+    
+</div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
